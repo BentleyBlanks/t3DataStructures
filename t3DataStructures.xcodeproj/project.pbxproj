@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820B22111B6F54E400FC403A /* t3Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 820B220F1B6F54E400FC403A /* t3Stack.cpp */; };
+		820B22141B6F54EF00FC403A /* t3Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 820B22121B6F54EF00FC403A /* t3Queue.cpp */; };
+		822374C31B6220B400BD04DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374C21B6220B400BD04DA /* main.cpp */; };
+		822374D31B62267600BD04DA /* t3SparseMatrixADT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374D21B62267600BD04DA /* t3SparseMatrixADT.cpp */; };
+		822374D61B6228D600BD04DA /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 822374D41B6228D600BD04DA /* libgtest_main.a */; };
+		822374D71B6228D600BD04DA /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 822374D51B6228D600BD04DA /* libgtest.a */; };
+		822374E41B623D6E00BD04DA /* t3Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374E31B623D6E00BD04DA /* t3Test.cpp */; };
+		822374E81B62409E00BD04DA /* t3Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374E61B62409E00BD04DA /* t3Timer.cpp */; };
+		82B9FE7B1B68D5620078962C /* t3StringADT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B9FE791B68D5620078962C /* t3StringADT.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		822374BD1B6220B400BD04DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		820B220F1B6F54E400FC403A /* t3Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Stack.cpp; sourceTree = "<group>"; };
+		820B22101B6F54E400FC403A /* t3Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Stack.h; sourceTree = "<group>"; };
+		820B22121B6F54EF00FC403A /* t3Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Queue.cpp; sourceTree = "<group>"; };
+		820B22131B6F54EF00FC403A /* t3Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Queue.h; sourceTree = "<group>"; };
+		822374BF1B6220B400BD04DA /* t3DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = t3DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
+		822374C21B6220B400BD04DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		822374CE1B62251E00BD04DA /* SparseMatrixTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparseMatrixTest.h; sourceTree = "<group>"; };
+		822374D01B62251E00BD04DA /* t3SparseMatrixADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3SparseMatrixADT.h; sourceTree = "<group>"; };
+		822374D21B62267600BD04DA /* t3SparseMatrixADT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3SparseMatrixADT.cpp; sourceTree = "<group>"; };
+		822374D41B6228D600BD04DA /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = gtest/libs/libgtest_main.a; sourceTree = "<group>"; };
+		822374D51B6228D600BD04DA /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = gtest/libs/libgtest.a; sourceTree = "<group>"; };
+		822374DD1B622B8B00BD04DA /* t3Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Test.h; sourceTree = "<group>"; };
+		822374E31B623D6E00BD04DA /* t3Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Test.cpp; sourceTree = "<group>"; };
+		822374E51B623EC700BD04DA /* t3DataStructuresSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3DataStructuresSettings.h; sourceTree = "<group>"; };
+		822374E61B62409E00BD04DA /* t3Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Timer.cpp; sourceTree = "<group>"; };
+		822374E71B62409E00BD04DA /* t3Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Timer.h; sourceTree = "<group>"; };
+		82B9FE791B68D5620078962C /* t3StringADT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3StringADT.cpp; sourceTree = "<group>"; };
+		82B9FE7A1B68D5620078962C /* t3StringADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3StringADT.h; sourceTree = "<group>"; };
+		82B9FE7C1B68D58D0078962C /* StringADTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringADTTest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		822374BC1B6220B400BD04DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822374D61B6228D600BD04DA /* libgtest_main.a in Frameworks */,
+				822374D71B6228D600BD04DA /* libgtest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		820B220E1B6F54C400FC403A /* LinearList */ = {
+			isa = PBXGroup;
+			children = (
+				820B220F1B6F54E400FC403A /* t3Stack.cpp */,
+				820B22101B6F54E400FC403A /* t3Stack.h */,
+				820B22121B6F54EF00FC403A /* t3Queue.cpp */,
+				820B22131B6F54EF00FC403A /* t3Queue.h */,
+			);
+			path = LinearList;
+			sourceTree = "<group>";
+		};
+		822374B61B6220B400BD04DA = {
+			isa = PBXGroup;
+			children = (
+				822374D41B6228D600BD04DA /* libgtest_main.a */,
+				822374D51B6228D600BD04DA /* libgtest.a */,
+				822374C11B6220B400BD04DA /* t3DataStructures */,
+				822374C01B6220B400BD04DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822374C01B6220B400BD04DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822374BF1B6220B400BD04DA /* t3DataStructures */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822374C11B6220B400BD04DA /* t3DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				820B220E1B6F54C400FC403A /* LinearList */,
+				82B9FE781B68D5500078962C /* String */,
+				822374DB1B622B8B00BD04DA /* Common */,
+				822374CD1B62251E00BD04DA /* SparseMatrix */,
+				822374C21B6220B400BD04DA /* main.cpp */,
+			);
+			path = t3DataStructures;
+			sourceTree = "<group>";
+		};
+		822374CD1B62251E00BD04DA /* SparseMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				822374CE1B62251E00BD04DA /* SparseMatrixTest.h */,
+				822374D01B62251E00BD04DA /* t3SparseMatrixADT.h */,
+				822374D21B62267600BD04DA /* t3SparseMatrixADT.cpp */,
+			);
+			path = SparseMatrix;
+			sourceTree = "<group>";
+		};
+		822374DB1B622B8B00BD04DA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				822374DD1B622B8B00BD04DA /* t3Test.h */,
+				822374E31B623D6E00BD04DA /* t3Test.cpp */,
+				822374E51B623EC700BD04DA /* t3DataStructuresSettings.h */,
+				822374E61B62409E00BD04DA /* t3Timer.cpp */,
+				822374E71B62409E00BD04DA /* t3Timer.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		82B9FE781B68D5500078962C /* String */ = {
+			isa = PBXGroup;
+			children = (
+				82B9FE791B68D5620078962C /* t3StringADT.cpp */,
+				82B9FE7A1B68D5620078962C /* t3StringADT.h */,
+				82B9FE7C1B68D58D0078962C /* StringADTTest.h */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		822374BE1B6220B400BD04DA /* t3DataStructures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822374C61B6220B400BD04DA /* Build configuration list for PBXNativeTarget "t3DataStructures" */;
+			buildPhases = (
+				822374BB1B6220B400BD04DA /* Sources */,
+				822374BC1B6220B400BD04DA /* Frameworks */,
+				822374BD1B6220B400BD04DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = t3DataStructures;
+			productName = t3DataStructures;
+			productReference = 822374BF1B6220B400BD04DA /* t3DataStructures */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822374B71B6220B400BD04DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Bentley;
+				TargetAttributes = {
+					822374BE1B6220B400BD04DA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 822374BA1B6220B400BD04DA /* Build configuration list for PBXProject "t3DataStructures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 822374B61B6220B400BD04DA;
+			productRefGroup = 822374C01B6220B400BD04DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822374BE1B6220B400BD04DA /* t3DataStructures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822374BB1B6220B400BD04DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822374E81B62409E00BD04DA /* t3Timer.cpp in Sources */,
+				82B9FE7B1B68D5620078962C /* t3StringADT.cpp in Sources */,
+				820B22141B6F54EF00FC403A /* t3Queue.cpp in Sources */,
+				822374C31B6220B400BD04DA /* main.cpp in Sources */,
+				820B22111B6F54E400FC403A /* t3Stack.cpp in Sources */,
+				822374D31B62267600BD04DA /* t3SparseMatrixADT.cpp in Sources */,
+				822374E41B623D6E00BD04DA /* t3Test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		822374C41B6220B400BD04DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		822374C51B6220B400BD04DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		822374C71B6220B400BD04DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./t3DataStructures/,
+					./gtest/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					./gtest/libs/,
+					"$(PROJECT_DIR)/gtest/libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		822374C81B6220B400BD04DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./t3DataStructures/,
+					./gtest/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					./gtest/libs/,
+					"$(PROJECT_DIR)/gtest/libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		822374BA1B6220B400BD04DA /* Build configuration list for PBXProject "t3DataStructures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822374C41B6220B400BD04DA /* Debug */,
+				822374C51B6220B400BD04DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822374C61B6220B400BD04DA /* Build configuration list for PBXNativeTarget "t3DataStructures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822374C71B6220B400BD04DA /* Debug */,
+				822374C81B6220B400BD04DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822374B71B6220B400BD04DA /* Project object */;
+}
