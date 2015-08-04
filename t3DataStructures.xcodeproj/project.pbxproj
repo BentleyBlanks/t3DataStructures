@@ -11,11 +11,11 @@
 		820B22141B6F54EF00FC403A /* t3Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 820B22121B6F54EF00FC403A /* t3Queue.cpp */; };
 		822374C31B6220B400BD04DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374C21B6220B400BD04DA /* main.cpp */; };
 		822374D31B62267600BD04DA /* t3SparseMatrixADT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374D21B62267600BD04DA /* t3SparseMatrixADT.cpp */; };
-		822374D61B6228D600BD04DA /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 822374D41B6228D600BD04DA /* libgtest_main.a */; };
-		822374D71B6228D600BD04DA /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 822374D51B6228D600BD04DA /* libgtest.a */; };
 		822374E41B623D6E00BD04DA /* t3Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374E31B623D6E00BD04DA /* t3Test.cpp */; };
 		822374E81B62409E00BD04DA /* t3Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374E61B62409E00BD04DA /* t3Timer.cpp */; };
 		82B9FE7B1B68D5620078962C /* t3StringADT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B9FE791B68D5620078962C /* t3StringADT.cpp */; };
+		82E791671B70A0BF00714237 /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E791651B70A0BF00714237 /* libgtest_main.a */; };
+		82E791681B70A0BF00714237 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E791661B70A0BF00714237 /* libgtest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,8 +40,6 @@
 		822374CE1B62251E00BD04DA /* SparseMatrixTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparseMatrixTest.h; sourceTree = "<group>"; };
 		822374D01B62251E00BD04DA /* t3SparseMatrixADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3SparseMatrixADT.h; sourceTree = "<group>"; };
 		822374D21B62267600BD04DA /* t3SparseMatrixADT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3SparseMatrixADT.cpp; sourceTree = "<group>"; };
-		822374D41B6228D600BD04DA /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = gtest/libs/libgtest_main.a; sourceTree = "<group>"; };
-		822374D51B6228D600BD04DA /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = gtest/libs/libgtest.a; sourceTree = "<group>"; };
 		822374DD1B622B8B00BD04DA /* t3Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Test.h; sourceTree = "<group>"; };
 		822374E31B623D6E00BD04DA /* t3Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Test.cpp; sourceTree = "<group>"; };
 		822374E51B623EC700BD04DA /* t3DataStructuresSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3DataStructuresSettings.h; sourceTree = "<group>"; };
@@ -50,6 +48,8 @@
 		82B9FE791B68D5620078962C /* t3StringADT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3StringADT.cpp; sourceTree = "<group>"; };
 		82B9FE7A1B68D5620078962C /* t3StringADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3StringADT.h; sourceTree = "<group>"; };
 		82B9FE7C1B68D58D0078962C /* StringADTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringADTTest.h; sourceTree = "<group>"; };
+		82E791651B70A0BF00714237 /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = Dependency/gtest/libs/libgtest_main.a; sourceTree = "<group>"; };
+		82E791661B70A0BF00714237 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = Dependency/gtest/libs/libgtest.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822374D61B6228D600BD04DA /* libgtest_main.a in Frameworks */,
-				822374D71B6228D600BD04DA /* libgtest.a in Frameworks */,
+				82E791671B70A0BF00714237 /* libgtest_main.a in Frameworks */,
+				82E791681B70A0BF00714237 /* libgtest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +79,8 @@
 		822374B61B6220B400BD04DA = {
 			isa = PBXGroup;
 			children = (
-				822374D41B6228D600BD04DA /* libgtest_main.a */,
-				822374D51B6228D600BD04DA /* libgtest.a */,
+				82E791651B70A0BF00714237 /* libgtest_main.a */,
+				82E791661B70A0BF00714237 /* libgtest.a */,
 				822374C11B6220B400BD04DA /* t3DataStructures */,
 				822374C01B6220B400BD04DA /* Products */,
 			);
@@ -291,11 +291,11 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./t3DataStructures/,
-					./gtest/include,
+					./Dependency/gtest/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
-					./gtest/libs/,
-					"$(PROJECT_DIR)/gtest/libs",
+					./Dependency/gtest/libs/,
+					"$(PROJECT_DIR)/Dependency/gtest/libs",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -308,11 +308,11 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					./t3DataStructures/,
-					./gtest/include,
+					./Dependency/gtest/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
-					./gtest/libs/,
-					"$(PROJECT_DIR)/gtest/libs",
+					./Dependency/gtest/libs/,
+					"$(PROJECT_DIR)/Dependency/gtest/libs",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
