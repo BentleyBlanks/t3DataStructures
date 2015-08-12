@@ -54,11 +54,16 @@ s.findFast();
 ```
 一旦超出容量，那么Tatty会自行分配两倍于目前长度的新空间。其中Queue较为特殊，循环队列在重新分配了之后，首尾指针会归位，因此建议不要在外部保存两者的副本。
 
-调试方面Tatty在线性表这边都给定了默认的print
+
+##调试
+Debug方面Tatty在线性表这边都给定了默认的print
 ```cpp
+// 栈
 stack.print();
 // 队列这里会指出front,rear指针的位置，较为方便
 queue.print();
+// 稀疏矩阵
+m.print();
 ```
 
 ##关于作者
