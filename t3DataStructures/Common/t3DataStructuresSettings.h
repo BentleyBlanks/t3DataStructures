@@ -28,7 +28,7 @@
 #endif
 
 // 线性表默认长度
-#define T3_STACK_DEFAULT_LENGTH 64
-#define T3_QUEUE_DEFAULT_LENGTH 64
+#define T3_STACK_DEFAULT_LENGTH 16
+#define T3_QUEUE_DEFAULT_LENGTH 4
 
 #endif

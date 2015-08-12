@@ -45,6 +45,7 @@
 		822374E51B623EC700BD04DA /* t3DataStructuresSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3DataStructuresSettings.h; sourceTree = "<group>"; };
 		822374E61B62409E00BD04DA /* t3Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Timer.cpp; sourceTree = "<group>"; };
 		822374E71B62409E00BD04DA /* t3Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Timer.h; sourceTree = "<group>"; };
+		82A148DC1B7B4FDA000584A8 /* t3LinearListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3LinearListTest.h; sourceTree = "<group>"; };
 		82B9FE791B68D5620078962C /* t3StringADT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3StringADT.cpp; sourceTree = "<group>"; };
 		82B9FE7A1B68D5620078962C /* t3StringADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3StringADT.h; sourceTree = "<group>"; };
 		82B9FE7C1B68D58D0078962C /* StringADTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringADTTest.h; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 				820B22101B6F54E400FC403A /* t3Stack.h */,
 				820B22121B6F54EF00FC403A /* t3Queue.cpp */,
 				820B22131B6F54EF00FC403A /* t3Queue.h */,
+				82A148DC1B7B4FDA000584A8 /* t3LinearListTest.h */,
 			);
 			path = LinearList;
 			sourceTree = "<group>";
