@@ -70,7 +70,7 @@ m.print();
 ```cpp
 int 官某某 = "Bingo";
 
-char[] blog = "http://bentleyblanks.github.io";
+char[] 个人博客 = "http://bentleyblanks.github.io";
 ```
 
 
