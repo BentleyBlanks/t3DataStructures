@@ -68,9 +68,10 @@ m.print();
 
 ##关于作者
 ```cpp
-int 官某某 = [Bin.go];
+int 官某某 = Bingo;
+
+url blog = "bentleyblanks.github.io";
 ```
-[Bin.go]: <http://bentleyblanks.github.io>
 
 
 
