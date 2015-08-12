@@ -45,6 +45,22 @@ s.find();
 s.findFast();
 ```
 
+5.LinearList方面，只有一点需要注意，就是一旦超出数组最大容纳数量即刻重新申请内存数据迁移，这将会带来性能上的极大降低
+推荐在```Common/t3DataStructuresSettings.h```上设定好自行需要的容量大小。
+```cpp
+// 线性表默认长度
+#define T3_STACK_DEFAULT_LENGTH 16
+#define T3_QUEUE_DEFAULT_LENGTH 4
+```
+一旦超出容量，那么Tatty会自行分配两倍于目前长度的新空间。其中Queue较为特殊，循环队列在重新分配了之后，首尾指针会归位，因此建议不要在外部保存两者的副本。
+
+调试方面Tatty在线性表这边都给定了默认的print
+```cpp
+stack.print();
+// 队列这里会指出front,rear指针的位置，较为方便
+queue.print();
+```
+
 ##关于作者
 ```cpp
 int 官某某 = Bingo;
