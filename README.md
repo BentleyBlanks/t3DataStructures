@@ -68,8 +68,9 @@ m.print();
 
 ##关于作者
 ```cpp
-int 官某某 = Bingo;
+int 官某某 = [Bin.go];
 ```
+[Bin.go]: <http://bentleyblanks.github.io>
 
 
 
