@@ -65,7 +65,7 @@ exp.evaluate();
 若给定的是中缀表达式
 ```cpp
 t3Expression exp;
-exp.create("a/b-c+d*e-a*c ");
+exp.create("((((4/2)-1)+(1*2))-(2*2)) ");
 // 转为后缀表达式
 exp.toPostfix();
 // 此时可以求后缀表达式的值
