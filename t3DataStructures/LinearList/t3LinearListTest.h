@@ -17,10 +17,6 @@ int main(int argc, char* argv[])
     
     std::string command;
     
-#ifdef T3_TEST_MAZE
-    t3Log("Ri");
-#endif
-    
 #ifdef T3_TEST_STACK
     t3Stack<int> stack;
     while(1)

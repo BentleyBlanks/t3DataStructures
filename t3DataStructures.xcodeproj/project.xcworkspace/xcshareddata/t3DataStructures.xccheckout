@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C0206EA4-B64E-48CC-8C66-0F018311865B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>t3DataStructures</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0ACDBD4D907722EE366F1232E8D59360DDE035CA</key>
 		<string>https://github.com/BentleyBlanks/t3DataStructures.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>t3DataStructures.xcodeproj</string>
+	<string>t3DataStructures.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0ACDBD4D907722EE366F1232E8D59360DDE035CA</key>

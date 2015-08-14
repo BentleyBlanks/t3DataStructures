@@ -64,7 +64,7 @@ void t3Stack<T>::push(T &value)
     
     head[++top] = value;
     
-    t3Log("Number Of Elements: %d\n", top+1);
+    //t3Log("Number Of Elements: %d\n", top+1);
 }
 
 // 获取栈顶元素值
@@ -74,7 +74,7 @@ T t3Stack<T>::get()
     if(isEmpty())
     {
         t3PrintError("栈为空，无法获取元素");
-        return NULL;
+        return T();
     }
     else
         return head[top];
@@ -87,7 +87,8 @@ T t3Stack<T>::pop()
     if(isEmpty())
     {
         t3PrintError("栈为空，无法弹出元素");
-        return NULL;
+        // --!未来应该更改为断言而不是T()
+        return T();
     }
     else
     {
