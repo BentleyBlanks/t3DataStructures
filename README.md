@@ -54,6 +54,21 @@ s.findFast();
 ```
 一旦超出容量，那么Tatty会自行分配两倍于目前长度的新空间。其中Queue较为特殊，循环队列在重新分配了之后，首尾指针会归位，因此建议不要在外部保存两者的副本。
 
+5.表达式部分需要注意的是
+```cpp
+t3Expression exp;
+exp.create("42/1-12*+22*- ");
+// 求后缀表达式的值，因此当前可直接求值
+exp.evaluate();
+```
+
+若给定的是中缀表达式
+```cpp
+t3Expression exp;
+exp.create("a/b-c+d*e-a*c ");
+// 转为后缀表达式(目前只做结果输出，不会对表达式发生任何更改)
+exp.toPostfix();
+```
 
 ##调试
 Debug方面Tatty在线性表这边都给定了默认的print
