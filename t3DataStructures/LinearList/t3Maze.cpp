@@ -155,10 +155,16 @@ void t3Maze::path(int exitRow, int exitCol)
             nextCol = now.col + move[now.direction].horiz;
             
             if(nextRow == exitRow && nextCol == exitCol)
+            {
+                // 放入最后一个结点
+                compass temp(now.row, now.col, ++now.direction);
+                
+                stack.push(temp);
+                
                 found = true;
-            
+            }
             // 没有来过 且 当前为通路
-            if(!mark[nextRow][nextCol] && !m[nextRow][nextCol])
+            else if(!mark[nextRow][nextCol] && !m[nextRow][nextCol])
             {
                 // 放入当前走到的结点 dir代表可探测方向
                 compass temp(now.row, now.col, ++now.direction);
