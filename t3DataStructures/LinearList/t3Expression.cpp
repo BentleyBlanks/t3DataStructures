@@ -19,19 +19,18 @@ void t3Expression::create(std::string s)
 
 void t3Expression::toPostfix()
 {
+    std::string temp;
     int n = 0;
     t3Precedence token = getToken(n);
     while(token != eos)
     {
         if(token == operand)
-        {
-            t3Log("%c", getChar(n));
-        }
+            temp += getChar(n);
         else if(token == rparen)
         {
             // 直到遇到左括号
             while (!postfixStack.isEmpty() && postfixStack.get() != lparen)
-                printToken(postfixStack.pop());
+                temp += getSymbol(postfixStack.pop());
             
             // 弹出左括号
             postfixStack.pop();
@@ -40,17 +39,21 @@ void t3Expression::toPostfix()
         {
             // 若栈顶优先级高于栈外符号引入优先级 出栈
             while(!postfixStack.isEmpty() && isp[postfixStack.get()] >= icp[token])
-                printToken(postfixStack.pop());
+                temp += getSymbol(postfixStack.pop());
             
             postfixStack.push(token);
         }
+        
         token = getToken(++n);
     }
     
     // 弹出剩余标记符
     while(!postfixStack.isEmpty() && (token = postfixStack.pop()) != eos)
-        printToken(token);
+        temp += getSymbol(postfixStack.pop());
+    temp += " ";
     
+    exp = temp;
+    std::cout << "Infix to Postfix: " << exp << std::endl;
 }
 
 int t3Expression::evaluate()
@@ -95,6 +98,7 @@ int t3Expression::evaluate()
             }
             valueStack.push(result);
         }
+        //t3Log("%d", n);
         token = getToken(++n);
     }
     
@@ -129,6 +133,24 @@ t3Precedence t3Expression::getToken(int n)
 const char t3Expression::getChar(int n)
 {
     return *exp.substr(n, 1).c_str();
+}
+
+const char t3Expression::getSymbol(t3Precedence p)
+{
+    switch (p) {
+        case plus:
+            return '+';
+        case minus:
+            return '-';
+        case times:
+            return '*';
+        case divide:
+            return '/';
+        case mod:
+            return '%';
+        default:
+            return NULL;
+    }
 }
 
 void t3Expression::printToken(t3Precedence p)

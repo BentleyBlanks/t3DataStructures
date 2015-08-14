@@ -66,8 +66,10 @@ exp.evaluate();
 ```cpp
 t3Expression exp;
 exp.create("a/b-c+d*e-a*c ");
-// 转为后缀表达式(目前只做结果输出，不会对表达式发生任何更改)
+// 转为后缀表达式
 exp.toPostfix();
+// 此时可以求后缀表达式的值
+exp.evaluate();
 ```
 
 ##调试

@@ -18,9 +18,11 @@ int main(int argc, char* argv[])
 #endif
     
 #ifdef T3_TEST_INFIX_TO_POSTFIX
-    exp.create("a/b-c+d*e-a*c ");
+    exp.create("((((4/2)-1)+(1*2))-(2*2)) ");
     
     exp.toPostfix();
+    
+    t3Log("Expression evaluate: %d", exp.evaluate());
 #endif
     return 0;
 }

@@ -33,6 +33,8 @@ public:
     
     const char getChar(int n);
     
+    const char getSymbol(t3Precedence p);
+    
     void printToken(t3Precedence p);
     
     std::string exp;
