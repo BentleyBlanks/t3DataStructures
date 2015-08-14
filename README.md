@@ -16,9 +16,6 @@
 1.因目前没有部署[CMake](https://www.cmake.org)的打算，所以除OSX以外其他平台（Windows,Linux都需要```手工```建立工程）
 
 2.在测试上t3DataStructure做的较为完善。支持Log，errorLog，未来将会增加日志文件的Log，目前而言这些基础Log已经足够在运行时使用。（```t3PrintError，t3PrintErrorArg，t3Log与printf等价```）
-```c
-t3Log("Whos Your Daddy?");
-```
 
 3.计时器方面借鉴[Nadeau](http://nadeausoftware.com/articles/2012/04/c_c_tip_how_measure_elapsed_real_time_benchmarking)的跨平台获取realTime的方法，使用方式如下
 ```cpp
