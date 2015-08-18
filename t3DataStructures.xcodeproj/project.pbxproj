@@ -16,6 +16,7 @@
 		822374E81B62409E00BD04DA /* t3Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374E61B62409E00BD04DA /* t3Timer.cpp */; };
 		824A9F181B7E2D7B00EC7D98 /* t3Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 824A9F161B7E2D7B00EC7D98 /* t3Expression.cpp */; };
 		82B9FE7B1B68D5620078962C /* t3StringADT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B9FE791B68D5620078962C /* t3StringADT.cpp */; };
+		82E0B0131B8307F900AF3C99 /* t3LinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82E0B0111B8307F900AF3C99 /* t3LinkList.cpp */; };
 		82E791671B70A0BF00714237 /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E791651B70A0BF00714237 /* libgtest_main.a */; };
 		82E791681B70A0BF00714237 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E791661B70A0BF00714237 /* libgtest.a */; };
 /* End PBXBuildFile section */
@@ -41,7 +42,6 @@
 		820B22131B6F54EF00FC403A /* t3Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Queue.h; sourceTree = "<group>"; };
 		822374BF1B6220B400BD04DA /* t3DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = t3DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		822374C21B6220B400BD04DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		822374CE1B62251E00BD04DA /* SparseMatrixTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparseMatrixTest.h; sourceTree = "<group>"; };
 		822374D01B62251E00BD04DA /* t3SparseMatrixADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3SparseMatrixADT.h; sourceTree = "<group>"; };
 		822374D21B62267600BD04DA /* t3SparseMatrixADT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3SparseMatrixADT.cpp; sourceTree = "<group>"; };
 		822374DD1B622B8B00BD04DA /* t3Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Test.h; sourceTree = "<group>"; };
@@ -51,12 +51,16 @@
 		822374E71B62409E00BD04DA /* t3Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Timer.h; sourceTree = "<group>"; };
 		824A9F161B7E2D7B00EC7D98 /* t3Expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Expression.cpp; sourceTree = "<group>"; };
 		824A9F171B7E2D7B00EC7D98 /* t3Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Expression.h; sourceTree = "<group>"; };
-		824A9F191B7E305300EC7D98 /* t3ExpressionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3ExpressionTest.h; sourceTree = "<group>"; };
-		8295FAB91B7DE3DE00BAB4CA /* t3MazeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3MazeTest.h; sourceTree = "<group>"; };
-		82A148DC1B7B4FDA000584A8 /* t3LinearListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3LinearListTest.h; sourceTree = "<group>"; };
 		82B9FE791B68D5620078962C /* t3StringADT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3StringADT.cpp; sourceTree = "<group>"; };
 		82B9FE7A1B68D5620078962C /* t3StringADT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3StringADT.h; sourceTree = "<group>"; };
-		82B9FE7C1B68D58D0078962C /* StringADTTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringADTTest.h; sourceTree = "<group>"; };
+		82E0B0111B8307F900AF3C99 /* t3LinkList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3LinkList.cpp; sourceTree = "<group>"; };
+		82E0B0121B8307F900AF3C99 /* t3LinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3LinkList.h; sourceTree = "<group>"; };
+		82E0B0151B830F9500AF3C99 /* SparseMatrixTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparseMatrixTest.h; sourceTree = "<group>"; };
+		82E0B0161B830F9500AF3C99 /* StringADTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringADTTest.h; sourceTree = "<group>"; };
+		82E0B0171B830F9500AF3C99 /* t3ExpressionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3ExpressionTest.h; sourceTree = "<group>"; };
+		82E0B0181B830F9500AF3C99 /* t3LinearListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3LinearListTest.h; sourceTree = "<group>"; };
+		82E0B0191B830F9500AF3C99 /* t3MazeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3MazeTest.h; sourceTree = "<group>"; };
+		82E0B01A1B830FA500AF3C99 /* t3LinkListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3LinkListTest.h; sourceTree = "<group>"; };
 		82E791651B70A0BF00714237 /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = Dependency/gtest/libs/libgtest_main.a; sourceTree = "<group>"; };
 		82E791661B70A0BF00714237 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = Dependency/gtest/libs/libgtest.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,13 +85,10 @@
 				820B22101B6F54E400FC403A /* t3Stack.h */,
 				820B22121B6F54EF00FC403A /* t3Queue.cpp */,
 				820B22131B6F54EF00FC403A /* t3Queue.h */,
-				82A148DC1B7B4FDA000584A8 /* t3LinearListTest.h */,
 				820672461B7C7AE9007ABD7C /* t3Maze.cpp */,
 				820672471B7C7AE9007ABD7C /* t3Maze.h */,
-				8295FAB91B7DE3DE00BAB4CA /* t3MazeTest.h */,
 				824A9F161B7E2D7B00EC7D98 /* t3Expression.cpp */,
 				824A9F171B7E2D7B00EC7D98 /* t3Expression.h */,
-				824A9F191B7E305300EC7D98 /* t3ExpressionTest.h */,
 			);
 			path = LinearList;
 			sourceTree = "<group>";
@@ -113,6 +114,8 @@
 		822374C11B6220B400BD04DA /* t3DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				82E0B0141B830F9500AF3C99 /* Test */,
+				82E0B0101B83073600AF3C99 /* LinkList */,
 				820B220E1B6F54C400FC403A /* LinearList */,
 				82B9FE781B68D5500078962C /* String */,
 				822374DB1B622B8B00BD04DA /* Common */,
@@ -125,7 +128,6 @@
 		822374CD1B62251E00BD04DA /* SparseMatrix */ = {
 			isa = PBXGroup;
 			children = (
-				822374CE1B62251E00BD04DA /* SparseMatrixTest.h */,
 				822374D01B62251E00BD04DA /* t3SparseMatrixADT.h */,
 				822374D21B62267600BD04DA /* t3SparseMatrixADT.cpp */,
 			);
@@ -149,9 +151,30 @@
 			children = (
 				82B9FE791B68D5620078962C /* t3StringADT.cpp */,
 				82B9FE7A1B68D5620078962C /* t3StringADT.h */,
-				82B9FE7C1B68D58D0078962C /* StringADTTest.h */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		82E0B0101B83073600AF3C99 /* LinkList */ = {
+			isa = PBXGroup;
+			children = (
+				82E0B0111B8307F900AF3C99 /* t3LinkList.cpp */,
+				82E0B0121B8307F900AF3C99 /* t3LinkList.h */,
+			);
+			path = LinkList;
+			sourceTree = "<group>";
+		};
+		82E0B0141B830F9500AF3C99 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				82E0B0151B830F9500AF3C99 /* SparseMatrixTest.h */,
+				82E0B0161B830F9500AF3C99 /* StringADTTest.h */,
+				82E0B0171B830F9500AF3C99 /* t3ExpressionTest.h */,
+				82E0B0181B830F9500AF3C99 /* t3LinearListTest.h */,
+				82E0B0191B830F9500AF3C99 /* t3MazeTest.h */,
+				82E0B01A1B830FA500AF3C99 /* t3LinkListTest.h */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +241,7 @@
 				820B22111B6F54E400FC403A /* t3Stack.cpp in Sources */,
 				822374D31B62267600BD04DA /* t3SparseMatrixADT.cpp in Sources */,
 				822374E41B623D6E00BD04DA /* t3Test.cpp in Sources */,
+				82E0B0131B8307F900AF3C99 /* t3LinkList.cpp in Sources */,
 				820672481B7C7AE9007ABD7C /* t3Maze.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

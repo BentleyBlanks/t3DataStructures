@@ -1,5 +1,6 @@
-//#include <SparseMatrix/SparseMatrixTest.h>
-//#include <String/StringADTTest.h>
-//#include <LinearList/t3LinearListTest.h>
-//#include <LinearList/t3MazeTest.h>
-#include <LinearList/t3ExpressionTest.h>
+//#include <Test/SparseMatrixTest.h>
+//#include <Test/StringADTTest.h>
+//#include <Test/t3LinearListTest.h>
+//#include <Test/t3MazeTest.h>
+//#include <Test/t3ExpressionTest.h>
+#include <Test/t3LinkListTest.h>
