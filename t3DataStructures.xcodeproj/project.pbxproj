@@ -61,6 +61,7 @@
 		82E0B0181B830F9500AF3C99 /* t3LinearListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3LinearListTest.h; sourceTree = "<group>"; };
 		82E0B0191B830F9500AF3C99 /* t3MazeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3MazeTest.h; sourceTree = "<group>"; };
 		82E0B01A1B830FA500AF3C99 /* t3LinkListTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3LinkListTest.h; sourceTree = "<group>"; };
+		82E0B01B1B8320E300AF3C99 /* t3EquivalenceTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = t3EquivalenceTest.h; sourceTree = "<group>"; };
 		82E791651B70A0BF00714237 /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = Dependency/gtest/libs/libgtest_main.a; sourceTree = "<group>"; };
 		82E791661B70A0BF00714237 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = Dependency/gtest/libs/libgtest.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +174,7 @@
 				82E0B0181B830F9500AF3C99 /* t3LinearListTest.h */,
 				82E0B0191B830F9500AF3C99 /* t3MazeTest.h */,
 				82E0B01A1B830FA500AF3C99 /* t3LinkListTest.h */,
+				82E0B01B1B8320E300AF3C99 /* t3EquivalenceTest.h */,
 			);
 			path = Test;
 			sourceTree = "<group>";
