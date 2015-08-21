@@ -31,4 +31,9 @@
 #define T3_STACK_DEFAULT_LENGTH 16
 #define T3_QUEUE_DEFAULT_LENGTH 4
 
+// 二叉树默认最大元素存放量
+#define T3_BINARTTREE_DEFAULT_LENGTH 16
+// 临时变量最大空间长度
+#define T3_BINARTTREE_MAPINDEX_LENGTH 64
+
 #endif
