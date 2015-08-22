@@ -69,6 +69,8 @@ exp.toPostfix();
 exp.evaluate();
 ```
 
+6.即将更新树部分(基本二叉树，二叉线索树，二叉查找树，堆)
+
 ##调试
 Debug方面Tatty在线性表这边都给定了默认的print
 ```cpp
