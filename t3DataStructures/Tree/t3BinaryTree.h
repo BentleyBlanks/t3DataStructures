@@ -31,6 +31,8 @@ public:
     
     void postorder();
     
+    void levelorder();
+    
     t3TreeNode *tree;
     
 private:

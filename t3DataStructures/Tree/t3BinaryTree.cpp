@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 //#include <malloc.h>
+#include <LinearList/t3Stack.h>
 
 t3BinaryTree::t3BinaryTree()
 {
@@ -62,6 +63,28 @@ void t3BinaryTree::inorder()
 void t3BinaryTree::postorder()
 {
     postorder(tree);
+}
+
+void t3BinaryTree::levelorder()
+{
+    t3Stack<t3TreeNode*> stack;
+    
+    if(!tree)
+        return;
+    
+    stack.push(tree);
+    while(true)
+    {
+        if(stack.isEmpty())
+            break;
+        
+        t3TreeNode *node = stack.pop();
+        t3Log("% d ", node->data);
+        if(node->leftChild)
+            stack.push(node->leftChild);
+        if(node->rightChild)
+            stack.push(node->rightChild);
+    }
 }
 
 t3TreeNode* t3BinaryTree::preorder(t3TreeNode* root)

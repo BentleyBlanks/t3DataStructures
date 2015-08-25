@@ -23,5 +23,8 @@ int main(int argc, char* argv[])
     t3Log("---------------------postorder---------------------\n");
     tree.postorder();
     
+    t3Log("---------------------levelorder---------------------\n");
+    tree.levelorder();
+    
     return 0;
 }

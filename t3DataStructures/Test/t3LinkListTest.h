@@ -1,10 +1,16 @@
 #include <LinkList/t3LinkList.h>
+#include <linkList/t3TypeList.h>
+
 #include <Common/t3Test.h>
 #include <Common/t3Timer.h>
 #include <iostream>
 
+#define T3_TEST_TYPELIST
+//#define T3_TEST_LINKLIST
+
 int main(int argc, char* argv[])
 {
+#ifdef T3_TEST_LINKLIST
     t3SingleLinkList<int> linkList;
     
     t3Log("-------------------------------\n");
@@ -26,6 +32,12 @@ int main(int argc, char* argv[])
     
     t3Log("-------------------------------\n");
     linkList.print();
+    
+#endif
+    
+#ifdef T3_TEST_TYPELIST
+
+#endif
     
     return 0;
 }
