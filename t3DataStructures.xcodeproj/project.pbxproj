@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82004D191B8C6FAC00185AA7 /* t3ThreadedBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82004D171B8C6FAC00185AA7 /* t3ThreadedBinaryTree.cpp */; };
 		820672481B7C7AE9007ABD7C /* t3Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 820672461B7C7AE9007ABD7C /* t3Maze.cpp */; };
 		820B22111B6F54E400FC403A /* t3Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 820B220F1B6F54E400FC403A /* t3Stack.cpp */; };
 		820B22141B6F54EF00FC403A /* t3Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 820B22121B6F54EF00FC403A /* t3Queue.cpp */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		82004D171B8C6FAC00185AA7 /* t3ThreadedBinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3ThreadedBinaryTree.cpp; sourceTree = "<group>"; };
+		82004D181B8C6FAC00185AA7 /* t3ThreadedBinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3ThreadedBinaryTree.h; sourceTree = "<group>"; };
 		820672461B7C7AE9007ABD7C /* t3Maze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Maze.cpp; sourceTree = "<group>"; };
 		820672471B7C7AE9007ABD7C /* t3Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Maze.h; sourceTree = "<group>"; };
 		820B220F1B6F54E400FC403A /* t3Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Stack.cpp; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 			children = (
 				826E01511B870A4400ED04CB /* t3BinaryTree.cpp */,
 				826E01521B870A4400ED04CB /* t3BinaryTree.h */,
+				82004D171B8C6FAC00185AA7 /* t3ThreadedBinaryTree.cpp */,
+				82004D181B8C6FAC00185AA7 /* t3ThreadedBinaryTree.h */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				822374E41B623D6E00BD04DA /* t3Test.cpp in Sources */,
 				82E0B0131B8307F900AF3C99 /* t3LinkList.cpp in Sources */,
 				826E01531B870A4400ED04CB /* t3BinaryTree.cpp in Sources */,
+				82004D191B8C6FAC00185AA7 /* t3ThreadedBinaryTree.cpp in Sources */,
 				820672481B7C7AE9007ABD7C /* t3Maze.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
