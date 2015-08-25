@@ -26,5 +26,16 @@ int main(int argc, char* argv[])
     t3Log("---------------------levelorder---------------------\n");
     tree.levelorder();
     
+    t3BinaryTree *root;
+    root = tree.copy();
+    root->inorder();
+    
+    t3Log("---------------------inorder---------------------\n");
+    root->inorder();
+    if(tree.equal(root))
+        t3Log("equal() -> ==\n");
+    else
+        t3Log("equal() -> !=\n");
+    
     return 0;
 }

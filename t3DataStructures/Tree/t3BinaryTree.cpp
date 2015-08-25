@@ -87,6 +87,42 @@ void t3BinaryTree::levelorder()
     }
 }
 
+t3BinaryTree* t3BinaryTree::copy()
+{
+    t3BinaryTree* temp = new t3BinaryTree();
+    temp->tree = copy(tree);
+    return temp;
+}
+
+// 指定树拷贝
+t3TreeNode* t3BinaryTree::copy(t3TreeNode *root)
+{
+    if(!root)
+        return NULL;
+    
+    t3TreeNode *temp = new t3TreeNode();
+    
+    temp->data = root->data;
+    temp->leftChild = copy(root->leftChild);
+    temp->rightChild = copy(root->rightChild);
+    
+    return temp;
+}
+
+// 等价性
+bool t3BinaryTree::equal(t3BinaryTree *root)
+{
+    return equal(tree, root->tree);
+}
+
+bool t3BinaryTree::equal(t3TreeNode *first, t3TreeNode *second)
+{
+    // 两者皆空 / 非空那么数据域要相同 / 递归左右子树
+    return ((!first && !second) || (first && second && first->data == second->data) ||
+            equal(first->leftChild, second->leftChild) ||
+            equal(first->rightChild, second->rightChild));
+}
+
 t3TreeNode* t3BinaryTree::preorder(t3TreeNode* root)
 {
     if(!root)

@@ -33,15 +33,25 @@ public:
     
     void levelorder();
     
+    t3BinaryTree* copy();
+    
+    // 等价性
+    bool equal(t3BinaryTree *tree);
+    
     t3TreeNode *tree;
     
 private:
-    
+    // 所有递归方法都被重封装
     t3TreeNode* preorder(t3TreeNode* root);
     
     t3TreeNode* inorder(t3TreeNode* root);
     
     t3TreeNode* postorder(t3TreeNode* root);
+    
+    // 指定树拷贝
+    t3TreeNode* copy(t3TreeNode *tree);
+    
+    bool equal(t3TreeNode *first, t3TreeNode *second);
     
     // offset为当前子树的相对序号
     t3TreeNode* buildInorderPreorder(int preorder[], int length, int offset, bool bRoot);
