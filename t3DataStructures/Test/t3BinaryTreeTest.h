@@ -1,8 +1,12 @@
 #include <Tree/t3BinaryTree.h>
+#include <Tree/t3ThreadedBinaryTree.h>
 
 #include <Common/t3Test.h>
 #include <iostream>
 #include <string>
+
+//#define T3_BINARYTREE_TEST
+#define T3_THREADEDBINARYTREE_TEST
 
 int main(int argc, char* argv[])
 {
@@ -10,7 +14,8 @@ int main(int argc, char* argv[])
     int inorder[] = {4, 10, 3, 1, 7, 11, 8, 2};
     int length = sizeof(preorder) / sizeof(preorder[0]);
     
-    t3BinaryTree tree;
+#ifdef T3_BINARYTREE_TEST
+    t3BinaryTree<t3TreeNode> tree;
     
     tree.create(preorder, inorder, length);
     
@@ -26,7 +31,7 @@ int main(int argc, char* argv[])
     t3Log("---------------------levelorder---------------------\n");
     tree.levelorder();
     
-    t3BinaryTree *root;
+    t3BinaryTree<t3TreeNode> *root;
     root = tree.copy();
     root->inorder();
     
@@ -36,6 +41,15 @@ int main(int argc, char* argv[])
         t3Log("equal() -> ==\n");
     else
         t3Log("equal() -> !=\n");
+#endif
     
+#ifdef T3_THREADEDBINARYTREE_TEST
+    
+    t3ThreadedBinaryTree tree;
+    tree.create(preorder, inorder, length);
+    
+    tree.inorder();
+    
+#endif
     return 0;
 }
