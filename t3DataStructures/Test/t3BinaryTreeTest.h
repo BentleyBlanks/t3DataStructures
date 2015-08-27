@@ -48,8 +48,12 @@ int main(int argc, char* argv[])
     t3ThreadedBinaryTree tree;
     tree.create(preorder, inorder, length);
     tree.inThreading();
+    t3Log("---------------------inorder---------------------\n");
     tree.inorder();
-    
+    t3ThreadTreeNode node(5);
+    tree.insertRight(tree.tree, &node);
+    t3Log("---------------------insert inorder---------------------\n");
+    tree.inorder();
 #endif
     return 0;
 }
