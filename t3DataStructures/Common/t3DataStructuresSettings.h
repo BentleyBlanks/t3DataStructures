@@ -36,4 +36,6 @@
 // 临时变量最大空间长度
 #define T3_BINARTTREE_MAPINDEX_LENGTH 64
 
+// 最大堆的最大容量
+#define T3_HEAP_DEFAULT_LENGTH 100
 #endif
