@@ -22,6 +22,9 @@ public:
     
     void threading();
     
+    // 这里只重现中序遍历 其余可自行实现
+    void inorder();
+    
 private:
     void threading(t3ThreadTreeNode *current);
 };

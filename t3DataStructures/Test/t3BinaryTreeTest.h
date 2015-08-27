@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
     
     t3ThreadedBinaryTree tree;
     tree.create(preorder, inorder, length);
-    
+    tree.threading();
     tree.inorder();
     
 #endif
