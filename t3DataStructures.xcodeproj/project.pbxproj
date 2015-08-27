@@ -16,6 +16,7 @@
 		822374E41B623D6E00BD04DA /* t3Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374E31B623D6E00BD04DA /* t3Test.cpp */; };
 		822374E81B62409E00BD04DA /* t3Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822374E61B62409E00BD04DA /* t3Timer.cpp */; };
 		824160701B88D48B00EC45A9 /* t3TypeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8241606E1B88D48B00EC45A9 /* t3TypeList.cpp */; };
+		8241B5091B8F1BA700C7CB85 /* t3Heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8241B5071B8F1BA700C7CB85 /* t3Heap.cpp */; };
 		824A9F181B7E2D7B00EC7D98 /* t3Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 824A9F161B7E2D7B00EC7D98 /* t3Expression.cpp */; };
 		826E01531B870A4400ED04CB /* t3BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 826E01511B870A4400ED04CB /* t3BinaryTree.cpp */; };
 		82B9FE7B1B68D5620078962C /* t3StringADT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B9FE791B68D5620078962C /* t3StringADT.cpp */; };
@@ -56,6 +57,8 @@
 		822374E71B62409E00BD04DA /* t3Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Timer.h; sourceTree = "<group>"; };
 		8241606E1B88D48B00EC45A9 /* t3TypeList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3TypeList.cpp; sourceTree = "<group>"; };
 		8241606F1B88D48B00EC45A9 /* t3TypeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3TypeList.h; sourceTree = "<group>"; };
+		8241B5071B8F1BA700C7CB85 /* t3Heap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Heap.cpp; sourceTree = "<group>"; };
+		8241B5081B8F1BA700C7CB85 /* t3Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Heap.h; sourceTree = "<group>"; };
 		824A9F161B7E2D7B00EC7D98 /* t3Expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3Expression.cpp; sourceTree = "<group>"; };
 		824A9F171B7E2D7B00EC7D98 /* t3Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t3Expression.h; sourceTree = "<group>"; };
 		826E01511B870A4400ED04CB /* t3BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t3BinaryTree.cpp; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				826E01521B870A4400ED04CB /* t3BinaryTree.h */,
 				82004D171B8C6FAC00185AA7 /* t3ThreadedBinaryTree.cpp */,
 				82004D181B8C6FAC00185AA7 /* t3ThreadedBinaryTree.h */,
+				8241B5071B8F1BA700C7CB85 /* t3Heap.cpp */,
+				8241B5081B8F1BA700C7CB85 /* t3Heap.h */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				822374D31B62267600BD04DA /* t3SparseMatrixADT.cpp in Sources */,
 				822374E41B623D6E00BD04DA /* t3Test.cpp in Sources */,
 				82E0B0131B8307F900AF3C99 /* t3LinkList.cpp in Sources */,
+				8241B5091B8F1BA700C7CB85 /* t3Heap.cpp in Sources */,
 				826E01531B870A4400ED04CB /* t3BinaryTree.cpp in Sources */,
 				82004D191B8C6FAC00185AA7 /* t3ThreadedBinaryTree.cpp in Sources */,
 				820672481B7C7AE9007ABD7C /* t3Maze.cpp in Sources */,
