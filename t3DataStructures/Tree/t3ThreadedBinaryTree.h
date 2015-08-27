@@ -20,13 +20,19 @@ class t3ThreadedBinaryTree:public t3BinaryTree<t3ThreadTreeNode>
 public:
     t3ThreadedBinaryTree();
     
-    void threading();
+    void inThreading();
     
     // 这里只重现中序遍历 其余可自行实现
     void inorder();
     
+    // 不做错误检查
+    void insertRight(t3ThreadTreeNode *parent, t3ThreadTreeNode *child);
+    
+    // 返回中序遍历的后继结点
+    t3ThreadTreeNode* inSuccessor(t3ThreadTreeNode *root);
+    
 private:
-    void threading(t3ThreadTreeNode *current);
+    void inThreading(t3ThreadTreeNode *current);
 };
 
 #endif

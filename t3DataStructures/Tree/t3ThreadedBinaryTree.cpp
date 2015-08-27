@@ -6,17 +6,17 @@ t3ThreadedBinaryTree::t3ThreadedBinaryTree()
     
 }
 
-void t3ThreadedBinaryTree::threading()
+void t3ThreadedBinaryTree::inThreading()
 {
     previous = NULL;
-    threading(tree);
+    inThreading(tree);
 }
 
-void t3ThreadedBinaryTree::threading(t3ThreadTreeNode *current)
+void t3ThreadedBinaryTree::inThreading(t3ThreadTreeNode *current)
 {
     if(current)
     {
-        threading(current->leftChild);
+        inThreading(current->leftChild);
     
         // 空 / false
         if(!current->leftChild && !current->leftThread)
@@ -34,7 +34,7 @@ void t3ThreadedBinaryTree::threading(t3ThreadTreeNode *current)
         
         previous = current;
         
-        threading(current->rightChild);
+        inThreading(current->rightChild);
     }
 }
 
@@ -65,5 +65,48 @@ void t3ThreadedBinaryTree::inorder()
                 h = h->leftChild;
         }
         t3Log(" %d ", h->data);
+    }
+}
+
+t3ThreadTreeNode* t3ThreadedBinaryTree::inSuccessor(t3ThreadTreeNode *root)
+{
+    if(!root)
+    {
+        t3PrintError("空指针没有后继结点");
+        return NULL;
+    }
+    
+    t3ThreadTreeNode *temp = root->rightChild;
+    if(!root->rightThread)
+        // 找到其最左端结点 即root的后继结点
+        while(!temp->leftThread)
+            temp = temp->leftChild;
+    
+    return temp;
+}
+
+void t3ThreadedBinaryTree::insertRight(t3ThreadTreeNode *parent, t3ThreadTreeNode *child)
+{
+    if(!parent || !child)
+    {
+        t3PrintError("插入二叉线索树中的子节点或父节点不能为空");
+        return;
+    }
+    
+    child->leftThread = true;
+    child->leftChild = parent;
+    child->rightChild = parent->rightChild;
+    child->rightThread = parent->rightThread;
+    
+    parent->rightThread = false;
+    parent->rightChild = child;
+    
+    // 看原父节点右边有无子节点
+    if(!child->rightThread)
+    {
+        t3ThreadTreeNode *temp;
+        // 找到后继
+        temp = inSuccessor(child);
+        temp->leftChild = child;
     }
 }
