@@ -7,7 +7,7 @@
 本程序在实际实现中不依赖外部成熟的数据结构，而是选择重现。因此不依赖任何外部库
 
 ##依赖项说明
-1.依赖Google的测试框架[gTest](https://code.google.com/p/googletest/)(现已直接包含在仓库中)
+1.依赖Google的测试框架[gTest](https://code.google.com/p/googletest/)(没有包含在仓库中)
 
 ##构建说明
 1.包含文件方面只需```./t3DataStructures/```即可，若有对依赖项额外依赖可手动包含
