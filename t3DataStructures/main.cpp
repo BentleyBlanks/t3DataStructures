@@ -4,5 +4,5 @@
 //#include <Test/t3MazeTest.h>
 //#include <Test/t3ExpressionTest.h>
 //#include <Test/t3LinkListTest.h>
-//#include <Test/t3EquivalenceTest.h>
-#include <Test/t3BinaryTreeTest.h>
+#include <Test/t3EquivalenceTest.h>
+//#include <Test/t3BinaryTreeTest.h>
