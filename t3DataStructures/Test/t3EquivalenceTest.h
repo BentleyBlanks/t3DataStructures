@@ -1,4 +1,4 @@
-#include <LinkList/t3LinkList.h>
+﻿#include <LinkList/t3LinkList.h>
 #include <LinearList/t3Stack.h>
 #include <Common/t3Test.h>
 #include <Common/t3Timer.h>
@@ -120,5 +120,7 @@ int main(int argc, char* argv[])
     
     equ.output();
     
+    getchar();
+
     return 0;
 }

@@ -1,4 +1,4 @@
-#ifndef T3_QUEUE_H
+﻿#ifndef T3_QUEUE_H
 #define T3_QUEUE_H
 
 #include <Common/t3DataStructuresSettings.h>

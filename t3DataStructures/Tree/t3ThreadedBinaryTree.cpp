@@ -1,4 +1,4 @@
-#include <Tree/t3ThreadedBinaryTree.h>
+﻿#include <Tree/t3ThreadedBinaryTree.h>
 t3ThreadTreeNode *previous;
 
 t3ThreadedBinaryTree::t3ThreadedBinaryTree()

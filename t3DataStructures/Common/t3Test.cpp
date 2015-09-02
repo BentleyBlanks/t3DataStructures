@@ -1,6 +1,11 @@
-#include <Common/t3Test.h>
+﻿#include <Common/t3Test.h>
 #include <Common/t3DataStructuresSettings.h>
-
+#include <stddef.h>
+#include <assert.h>
+#include <float.h>
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdlib.h>
 //template<class T>
 //void t3PrintError_(std::string functionName, std::string argName, T arg, std::string errorMessage)
 //{ 

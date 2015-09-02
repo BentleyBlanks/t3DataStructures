@@ -33,7 +33,8 @@ double t3GetRealTime( )
     ULONGLONG t;
 #if defined(NTDDI_WIN8) && NTDDI_VERSION >= NTDDI_WIN8
     /* Windows 8, Windows Server 2012 and later. ---------------- */
-    GetSystemTimePreciseAsFileTime( &tm );
+    GetSystemTimeAsFileTime(&tm);
+    //GetSystemTimePreciseAsFileTime( &tm );
 #else
     /* Windows 2000 and later. ---------------------------------- */
     GetSystemTimeAsFileTime( &tm );

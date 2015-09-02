@@ -5,8 +5,8 @@
 #include <Common/t3Timer.h>
 #include <iostream>
 
-#define T3_TEST_TYPELIST
-//#define T3_TEST_LINKLIST
+//#define T3_TEST_TYPELIST
+#define T3_TEST_LINKLIST
 
 int main(int argc, char* argv[])
 {
@@ -38,6 +38,6 @@ int main(int argc, char* argv[])
 #ifdef T3_TEST_TYPELIST
 
 #endif
-    
+    getchar();
     return 0;
 }

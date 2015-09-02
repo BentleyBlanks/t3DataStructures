@@ -1,4 +1,4 @@
-#include <SparseMatrix/t3SparseMatrixADT.h>
+﻿#include <SparseMatrix/t3SparseMatrixADT.h>
 #include <Common/t3Test.h>
 #include <Common/t3Timer.h>
 
@@ -42,5 +42,7 @@ int main(int argc, char* argv[])
     
     m2->print();
     
+    getchar();
+
     return 0;
 }

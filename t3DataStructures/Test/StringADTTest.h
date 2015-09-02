@@ -1,4 +1,4 @@
-#include <String/t3StringADT.h>
+﻿#include <String/t3StringADT.h>
 #include <Common/t3Test.h>
 #include <Common/t3Timer.h>
 
@@ -27,5 +27,6 @@ int main(int argc, char* argv[])
     t3Log("findFast()花费时间: %lf\n", timer.difference());
 
     //s.findFast("lao");
+    getchar();
     return 0;
 }

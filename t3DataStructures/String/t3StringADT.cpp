@@ -1,6 +1,8 @@
+﻿#define _CRT_SECURE_NO_WARNINGS
 #include "t3StringADT.h"
 #include <string.h>
 #include <Common/t3Test.h>
+
 t3StringADT::t3StringADT()
 {
     lengthString = 0;

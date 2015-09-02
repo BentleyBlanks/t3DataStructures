@@ -24,5 +24,6 @@ int main(int argc, char* argv[])
     
     t3Log("Expression evaluate: %d", exp.evaluate());
 #endif
+    getchar();
     return 0;
 }

@@ -1,4 +1,4 @@
-#include <SparseMatrix/t3SparseMatrixADT.h>
+﻿#include <SparseMatrix/t3SparseMatrixADT.h>
 #include <Common/t3Test.h>
 
 // 创建一个最大能容纳maxRow x maxCol 非零元素个数count的稀疏矩阵 本质上是一维矩阵
@@ -64,7 +64,7 @@ t3SparseMatrixADT* t3SparseMatrixADT::transposeFast()
     int num = m[0].value, numCol = m[0].col;
     
     // 每一列上元素个数 / 转置矩阵可被赋值的起始位置
-    int rowTerms[numCol], startingPos[numCol];
+    int *rowTerms = new int[numCol], *startingPos = new int[numCol];
     
     t3SparseMatrixADT *t = NULL;
     

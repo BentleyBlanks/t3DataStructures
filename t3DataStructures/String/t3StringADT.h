@@ -1,4 +1,4 @@
-#ifndef T3_STRINGADT_H
+﻿#ifndef T3_STRINGADT_H
 #define T3_STRINGADT_H
 
 #include <stdio.h>

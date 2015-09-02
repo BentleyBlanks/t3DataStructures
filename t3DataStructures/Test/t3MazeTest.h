@@ -22,5 +22,6 @@ int main(int argc, char* argv[])
     
     maze.path(3, 1);
 
+    getchar();
     return 0;
 }

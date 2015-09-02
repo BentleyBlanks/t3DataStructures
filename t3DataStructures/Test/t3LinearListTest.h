@@ -7,8 +7,8 @@
 #include <iostream>
 #include <string>
 
-#define T3_TEST_MAZE
-//#define T3_TEST_STACK
+//#define T3_TEST_MAZE
+#define T3_TEST_STACK
 //#define T3_TEST_QUEUE
 
 int main(int argc, char* argv[])
@@ -16,6 +16,8 @@ int main(int argc, char* argv[])
     t3Timer timer;
     
     std::string command;
+
+    int i;
     
 #ifdef T3_TEST_STACK
     t3Stack<int> stack;
@@ -75,5 +77,6 @@ int main(int argc, char* argv[])
             std::cout << "Error Command." << command << std::endl;
     }
 #endif
+    getchar();
     return 0;
 }

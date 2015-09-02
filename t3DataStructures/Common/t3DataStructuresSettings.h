@@ -1,4 +1,4 @@
-#ifndef T3_DATASTRUCTURESSETTINGS_H
+﻿#ifndef T3_DATASTRUCTURESSETTINGS_H
 #define T3_DATASTRUCTURESSETTINGS_H
 
 #if defined( __WIN32__ ) || defined( _WIN32 )

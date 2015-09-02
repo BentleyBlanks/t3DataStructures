@@ -55,5 +55,7 @@ int main(int argc, char* argv[])
     t3Log("---------------------insert inorder---------------------\n");
     tree.inorder();
 #endif
+    getchar();
+
     return 0;
 }
