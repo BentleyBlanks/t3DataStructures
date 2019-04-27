@@ -21,3 +21,4 @@ README~
 *.psess
 *.vsp
 *.cmake
+*.FileListAbsolute.txt
