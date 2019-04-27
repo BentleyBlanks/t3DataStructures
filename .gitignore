@@ -1,7 +1,7 @@
 *.swp
 README~
 .gitignore~
-build
+#build
 *.out
 *.exe
 *.tlog

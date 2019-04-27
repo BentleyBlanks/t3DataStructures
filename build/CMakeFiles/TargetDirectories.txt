@@ -1,0 +1,3 @@
+C:/Users/Bentl/Documents/Program/Sophia/Sophia/thirdparty/t3DataStructures/build/CMakeFiles/t3DataStructures.dir
+C:/Users/Bentl/Documents/Program/Sophia/Sophia/thirdparty/t3DataStructures/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Bentl/Documents/Program/Sophia/Sophia/thirdparty/t3DataStructures/build/CMakeFiles/ZERO_CHECK.dir
