@@ -13,11 +13,12 @@
 1.包含文件方面只需```./t3DataStructures/```即可，若有对依赖项额外依赖可手动包含
 
 ## How to use
-1.已更新CMake,支持多平台IDE工程直接生成(XCode, VS2013已测试)
+1.  已更新CMake,支持多平台IDE工程直接生成(XCode, VS2013已测试)
 
-2.在测试上t3DataStructure做的较为完善。支持Log，errorLog，未来将会增加日志文件的Log，目前而言这些基础Log已经足够在运行时使用。（```t3PrintError，t3PrintErrorArg，t3Log与printf等价```）
+2.  在测试上t3DataStructure做的较为完善。支持Log，errorLog，未来将会增加日志文件的Log，目前而言这些基础Log已经足够在运行时使用。（```t3PrintError，t3PrintErrorArg，t3Log与printf等价```）
 
-3.计时器方面借鉴[Nadeau](http://nadeausoftware.com/articles/2012/04/c_c_tip_how_measure_elapsed_real_time_benchmarking)的跨平台获取realTime的方法，使用方式如下
+3.  计时器方面借鉴[Nadeau](http://nadeausoftware.com/articles/2012/04/c_c_tip_how_measure_elapsed_real_time_benchmarking)的跨平台获取realTime的方法，使用方式如下
+
 ```cpp
 t3Timer timer;
 
@@ -28,7 +29,8 @@ timer.end();
 t3Log("Cost Time: %lf\n", timer.difference());
 ```
 
-4.String方面由于设计上的疏忽，导致KMP算法实现的findFast将会```稍慢于```检测末端标记的算法find。需要注意的是在进行匹配测试之前，需要预先给定模式字符串。
+4.  String方面由于设计上的疏忽，导致KMP算法实现的findFast将会```稍慢于```检测末端标记的算法find。需要注意的是在进行匹配测试之前，需要预先给定模式字符串。
+
 ```cpp
 t3StringADT s;
 
@@ -42,8 +44,9 @@ s.find();
 s.findFast();
 ```
 
-5.LinearList方面，只有一点需要注意，就是一旦超出数组最大容纳数量即刻重新申请内存数据迁移，这将会带来性能上的极大降低
-推荐在```Common/t3DataStructuresSettings.h```上设定好自行需要的容量大小。
+5.  LinearList方面，只有一点需要注意，就是一旦超出数组最大容纳数量即刻重新申请内存数据迁移，这将会带来性能上的极大降低
+    推荐在```Common/t3DataStructuresSettings.h```上设定好自行需要的容量大小。
+
 ```cpp
 // 线性表默认长度
 #define T3_STACK_DEFAULT_LENGTH 16
@@ -51,7 +54,8 @@ s.findFast();
 ```
 一旦超出容量，那么Tatty会自行分配两倍于目前长度的新空间。其中Queue较为特殊，循环队列在重新分配了之后，首尾指针会归位，因此建议不要在外部保存两者的副本。
 
-5.表达式部分需要注意的是，若给定的是后表达式
+6.  表达式部分需要注意的是，若给定的是后表达式
+
 ```cpp
 t3Expression exp;
 exp.create("42/1-12*+22*- ");
@@ -69,10 +73,10 @@ exp.toPostfix();
 exp.evaluate();
 ```
 
-6.即将更新树部分(基本二叉树，二叉线索树，二叉查找树，堆)
+7.  即将更新树部分(基本二叉树，二叉线索树，二叉查找树，堆)
 
 ## Debug
-Debug方面Tatty在线性表这边都给定了默认的print
+Tatty在线性表这边都给定了默认的print
 
 ```cpp
 // 栈
@@ -83,7 +87,7 @@ queue.print();
 m.print();
 ```
 
-## About Me
+## About
 
 ```cpp
 int 官某某 = "Bingo";
