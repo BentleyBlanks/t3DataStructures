@@ -6,13 +6,13 @@
 
 本程序在实际实现中不依赖外部成熟的数据结构，而是选择重现。因此不依赖任何外部库
 
-##依赖项说明
+## Dependency
 1.依赖Google的测试框架[gTest](https://code.google.com/p/googletest/)(没有包含在仓库中)
 
-##构建说明
+## How to build
 1.包含文件方面只需```./t3DataStructures/```即可，若有对依赖项额外依赖可手动包含
 
-##使用说明
+## How to use
 1.已更新CMake,支持多平台IDE工程直接生成(XCode, VS2013已测试)
 
 2.在测试上t3DataStructure做的较为完善。支持Log，errorLog，未来将会增加日志文件的Log，目前而言这些基础Log已经足够在运行时使用。（```t3PrintError，t3PrintErrorArg，t3Log与printf等价```）
@@ -71,8 +71,9 @@ exp.evaluate();
 
 6.即将更新树部分(基本二叉树，二叉线索树，二叉查找树，堆)
 
-##调试
+## Debug
 Debug方面Tatty在线性表这边都给定了默认的print
+
 ```cpp
 // 栈
 stack.print();
@@ -82,7 +83,8 @@ queue.print();
 m.print();
 ```
 
-##关于作者
+## About Me
+
 ```cpp
 int 官某某 = "Bingo";
 
