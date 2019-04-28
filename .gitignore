@@ -12,10 +12,10 @@ README~
 *.ilk
 *.log
 *.lastbuildstate
-*.sln
+#*.sln
 *.suo
-*.vcxproj
-*.filters
+#*.vcxproj
+#*.filters
 *.user
 *.png
 *.psess

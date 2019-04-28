@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Common\t3Test.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Common\t3Timer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Expression.cpp">
+      <Filter>LinearList</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Maze.cpp">
+      <Filter>LinearList</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Queue.cpp">
+      <Filter>LinearList</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Stack.cpp">
+      <Filter>LinearList</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinkList\t3LinkList.cpp">
+      <Filter>LinkList</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinkList\t3TypeList.cpp">
+      <Filter>LinkList</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\SparseMatrix\t3SparseMatrixADT.cpp">
+      <Filter>SparseMatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\String\t3StringADT.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Tree\t3BinaryTree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Tree\t3Heap.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Tree\t3ThreadedBinaryTree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Common\t3DataStructuresSettings.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Common\t3Test.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Common\t3Timer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Expression.h">
+      <Filter>LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Maze.h">
+      <Filter>LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Queue.h">
+      <Filter>LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinearList\t3Stack.h">
+      <Filter>LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinkList\t3LinkList.h">
+      <Filter>LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\LinkList\t3TypeList.h">
+      <Filter>LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\SparseMatrix\t3SparseMatrixADT.h">
+      <Filter>SparseMatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\String\t3StringADT.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\SparseMatrixTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\StringADTTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\t3BinaryTreeTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\t3EquivalenceTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\t3ExpressionTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\t3LinearListTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\t3LinkListTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Test\t3MazeTest.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Tree\t3BinaryTree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Tree\t3Heap.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\t3DataStructures\Tree\t3ThreadedBinaryTree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bentl\Documents\Program\Sophia\Sophia\thirdparty\t3DataStructures\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{C6824F33-B937-3144-8B85-2B95446536B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinearList">
+      <UniqueIdentifier>{23B5F7AD-36D4-3DF4-9BC7-0607DDA4C682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinkList">
+      <UniqueIdentifier>{B3CE73FB-877D-3F90-80D0-CB2755D842FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SparseMatrix">
+      <UniqueIdentifier>{6C67B206-8FC7-3B33-997F-147F954509A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{6CE0652C-F847-3AA1-8027-3FB371CFE098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{CB48B229-81EC-3065-958A-DF596EADACFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{B1309CF9-34F4-362A-AA92-0ECF452A026A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{48F9D222-A476-33CC-9C91-81F2AFCBEBA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
