@@ -97,7 +97,6 @@ double t3GetRealTime( )
 #endif
 }
 
-// 开始计时
 double t3Timer::start()
 {
     startTime = t3GetRealTime();
@@ -105,7 +104,6 @@ double t3Timer::start()
     return startTime;
 }
 
-// 结束计时
 double t3Timer::end()
 {
     endTime = t3GetRealTime();
